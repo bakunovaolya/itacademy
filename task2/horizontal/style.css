@@ -1,0 +1,28 @@
+.container {
+    display:inline-block;
+    width:245px;
+    margin: 5px;
+    /*border: 1px solid black;*/
+    padding: 5px;
+   }
+.text-style{
+    font: 16px tahoma, arial;
+    white-space:pre-line;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    vertical-align: bottom;
+}
+.img-style{
+    text-align:center;
+    vertical-align: middle;
+}
+figure{
+    display: inline-block;
+    text-align: center;
+    width: 245px;
+    /*background: lightblue;
+    border: 2px solid steelblue;*/
+    margin: 5px;
+
+}
