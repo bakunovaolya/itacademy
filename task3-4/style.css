@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+.bord {
+    width:100%;
+    position: relative;
+        background: url("./topleft.png") top left no-repeat, 
+                url("./topright.png") top right no-repeat,
+                url("./bottomleft.png") bottom left no-repeat, 
+                url("./bottomright.png") bottom right no-repeat,
+                url("./top.png") 98px 0 repeat-x,
+                url("./bottom.png") 98px 100% repeat-x,
+                url("./left.png") 0 98px repeat-y,
+                url("./right.png") 100% 98px repeat-y;
+}
+.container{
+    padding: 50px 50px;
+    display:flex;
+    justify-content: space-around;
+}
+.text1 {
+     white-space: pre-line;
+     font-family: Pacifico, Verdana, Arial;
+     font-size: 1em;
+     line-height: 100%;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+.text2 {
+     white-space: pre-line;
+     font-family: Viaoda Libre, Verdana, Arial;
+     font-size: 1em;
+     line-height: 100%;
+}
