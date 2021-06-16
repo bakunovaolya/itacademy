@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    background: url(./image.jpg) no-repeat;
+    }
+ul{margin:0;
+   padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #2c4e00;
+    font-family: Ruslan Display;
+}
+header{
+    display: flex;
+    height: 120px;
+    border-bottom: 2px solid #8da827;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display:block;
+    width:70px;
+    padding: 10px;
+    margin-left: 70px;
+    border: 2px solid #8da827;
+    border-radius: 50%;
+}
+.text-class{
+    white-space: pre-line;
+    padding: 10px;
+    font-family: Ruslan Display;
+    font-size: 1.5em;
+    color: #d5eed1;
+    line-height:130%;
+}
+.tel-class{
+    box-sizing: border-box;
+    margin-right: 70px;
+    margin-left: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+.nav-class{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    list-style-type: none;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid #8da827;
+}
+.frame-class{
+    width: 100%;
+    height: 420px;
+    border-width: 0;
+}
+.menu-class {
+    display:block;
+    padding: 15px;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-family: Ruslan Display; 
+}
+a:link, a:visited {
+    color: #2c4e00;
+}
+a:hover {
+    color: #365706;
+}
+.menu-class:hover {
+    border: 1px solid #2c4e00;
+    background: linear-gradient(#60880d, #8da827, #60880d);
+    font-family: Ruslan Display;
+    color: #365706;
+    border-radius: 2em;
+}
+.tel{
+    display:block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 1em;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    width: 180px;
+    font-family: Ruslan Display;
+    font-size: 20px;
+    color: #2c4e00;
+}
+.tel:hover{
+    border: 2px solid #d5eed1;
+    background: linear-gradient(#b2d2e1, #92c2b6, #b2d2e1);
+    color:  #d5eed1;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid #8da827;
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-footer{
+    margin-left: 70px;
+    list-style-type: none;
+    font: 16px Marmelad;
+}
+.menu-footer{
+    display: inline-block;
+    padding: 5px 0;
+}
+.author-footer{
+    margin-right: 70px;
+    color: #3a2802;
+}
+.main-text {
+    white-space: normal;
+    margin:10px;
+    text-align: justify;
+    font-family: Marmelad, sans-serif;
+    font-size: 20px;
+    color:#3c1303;
+}
+.main-song{
+    white-space: pre-line;
+    text-align: center;
+    font-family: Reggae One, cursive;
+    color:#3c1303;
+}
+.label-class{
+    display: inline-block;
+    width:80px;
+    padding: 5px 0;
+}
+.wrapper{ 
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+.wrapper-form{
+    width: 330px;
+    font-family: Ruslan Display;
+    border: 2px solid #2c4e00;
+    text-align: center;
+    padding: 10px;
+    border-radius: 1em;
+}
+.input-class{
+    display: inline-block;
+    width: 225px;
+    color: #365706;
+    font-family: Ruslan Display;
+    background-color: #8da827;
+    border-radius: 1em;
+    border: 1px solid #365706;
+    height: 20px;
+    padding:5px 0;
+    margin: 5px 0;
+}
+.wrapper-button{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.button-class{
+    display: inline-block;
+    margin: 5px 0;
+    height:30px;
+    width:140px;
+    font-family: Marmelad, sans-serif;
+    font-size: 20px;
+    background-color: #8da827;
+    border-radius: 1em;
+    border: 1px solid #365706;
+}
+input[value="отправить"]{
+    margin-right: 15px;
+}
+input[value="очистить"]{
+    margin-left: 15px;
+} 
+
+
+
+
