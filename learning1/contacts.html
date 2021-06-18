@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Заказать звонок</h1>
+    <div class="wrapper">
+        <div class="wrapper-form">
+            <form>
+                <label class="label-class">Имя:</label>
+                <input type="text" name="firstname" required class="input-class"><br>
+                <label class="label-class">Возраст:</label>
+                <input type="number" name="age" class="input-class"> <br>
+                <label class="label-class">Пол</label>
+                <input type="radio" name="gender" value="man" class="radio-class"> Мужской
+                <input type="radio" name="gender" value="woman"> Женский <br>
+                <label class="label-class">e-mail</label>
+                <input type="email" class="input-class"> <br>
+                <label class="label-class">Телефон</label>
+                <input type="tel" required pattern="+[0-9]" class="input-class"> <br>
+                <div class="wrapper-button">
+                    <input type="submit" value="отправить" class="button-class">
+                    <input type="reset" value="очистить" class="button-class">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
