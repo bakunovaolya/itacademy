@@ -1,0 +1,18 @@
+.wrapper-stars {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 125px;
+    height: 25px;
+  }
+  .star {
+    width: 25px;
+    height: 25px;
+    background: url("./gray.png") no-repeat;
+    cursor: pointer;
+  }
+  
+  .wrapper-stars .star:hover, /*Правило для ховера на текущую звезду*/
+  .wrapper-stars .star:hover ~ .star /*Правило для всех следующих звезд*/
+  {
+    background: url("./green.png")  no-repeat;
+  }
