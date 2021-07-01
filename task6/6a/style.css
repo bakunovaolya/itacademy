@@ -1,0 +1,78 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+table{
+    border: 0;
+    margin: 0;
+    border-spacing: 0;
+}
+.table-class{
+    margin-bottom: 5px;
+}
+td{
+    height: 30px;
+    padding: 0;
+}
+.table-class tr td:not(:last-child) {   
+    border-right: 3px solid red;
+}
+.block-class div{
+    height: 30px;
+}
+.block-class div:not(:last-child){   
+    border-right: 3px solid red;
+    float: left;
+}
+.block-class{
+    margin-bottom: 5px;
+}
+.inline-class{
+    margin-bottom: 5px;
+    max-width: 100%;
+    font-size: 0px; /*задаем размер шрифта 0 для пробела, способ1*/
+   
+}
+.inline-class div{
+    display: inline-block;
+    height: 30px;
+    margin: 0;
+    padding:0;
+}
+/*.inline-class div:not(:first-child){   
+    margin-left: -4px;   убираем пробельные символы у inline-block, способ2
+} */   
+.inline-class div:not(:last-child){   
+    border-right: 3px solid red;
+    box-sizing: border-box;
+}    
+.flex-class{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: flex-start;
+}
+.flex-class div{
+    height: 30px;
+}
+.flex-class div:not(:last-child){   
+    border-right: 3px solid red;
+} 
+.grid-class{
+    display: inline-grid;
+    margin-bottom: 5px;
+    grid-template-columns: auto auto auto auto auto;
+}
+.grid-class div{
+    height: 30px;
+}
+.grid-class div:not(:last-child){   
+    border-right: 3px solid red;
+} 
+a{  font-size: 14px;
+    color: green;
+    padding: 5px;
+}
+a:hover{
+    color: red;
+}
