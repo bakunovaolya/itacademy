@@ -1,0 +1,47 @@
+.contact-wrapper{
+    display:flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.data-class{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 100px;
+}
+.data-class h1{
+    padding-bottom: 30px;
+    
+}
+.name, .email{
+    width: 290px;
+    height: 50px;
+    border: 1px solid #444;
+    margin-bottom: 15px;
+}
+.message{
+    width: 290px;
+    height: 150px;
+    border: 1px solid #444;
+    resize: vertical;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.name:focus, .email:focus, .message:focus{
+    outline-color: #0961b9;
+    outline-width: 2px;
+}
+.data-title{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contact-img{
+    max-width: 45%;
+}
+.contact-img img{
+    width: 100%;
+    padding-bottom: 15px;
+}

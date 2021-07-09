@@ -1,0 +1,88 @@
+.company-wrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    padding-top: 100px;
+   
+}
+.img-company{
+    max-width: 30%;
+    padding: 0 15px;
+}
+.img-company img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.text-company{
+    padding-left:15px;
+   
+    max-width: 30%; 
+    display: flex;
+    flex-direction: column;
+}
+.text-company h1{
+    padding-bottom: 30px;
+}
+ .text-company p{
+    font-size: 1em; 
+    text-align: left;
+
+} 
+.button{
+    height: 45px;
+    width: 140px;
+    border: 2px solid #909090;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    background-color:#eaeaea;
+    cursor:pointer;
+}
+
+.company{
+    max-width: 25%;
+    margin-right: 15px;
+    border: 2px solid #909090;
+}
+input {
+    display: none;
+}
+input + label {
+    display: inline-block;
+    width:50%;
+}
+input ~ .tab { 
+    display: none; 
+}
+input ~ label:hover{
+   cursor: pointer;
+}
+#vision:checked ~ .tab.vision,
+#mission:checked ~ .tab.mission{
+   display: block; 
+}
+ input  + label {
+  text-align: center;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  margin-right: -4px;
+  padding: 15px 15px;
+  position: relative;
+  background-color: #e5e2e2;
+}
+input + label:last-of-type{
+    border-right: 0;
+  }
+input:checked + label {
+   background-color: #ffffff; 
+   border-bottom: 1px solid transparent;
+}
+input ~ .tab {
+  padding: 15px;
+}
