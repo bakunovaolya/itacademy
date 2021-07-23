@@ -1,0 +1,34 @@
+.header-wrapper{
+    background: #fff;
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.header{
+    height:110px;
+    background:linear-gradient(to left, #8CB4D1 0%, rgba(152, 183, 207, 0.792512) 0.01%, rgba(180, 192, 200, 0.276625) 15%, rgba(196, 196, 196, 0) 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;   
+}
+.logo{
+    padding-left: 70px;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+.nav-link{
+    font-family: "Good Vibes Pro";
+    font-size: 1.5em;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+}
+.menu-btn{
+    display: none;
+}

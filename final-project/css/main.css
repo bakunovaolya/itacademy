@@ -1,0 +1,148 @@
+.first{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center; 
+    flex: 1 1 0;
+    width: 100%;
+    position: relative;
+}
+.left{
+    padding-top: 20px;
+    max-width: 50%;
+    display: flex;
+    /* flex: 1 1 0; */
+    justify-content: space-between;
+    padding-bottom: 110px;
+    background: radial-gradient(at bottom left, #8CB4D1 0%, rgba(152, 183, 207, 0.792512) 0.01%, rgba(180, 192, 200, 0.276625) 30%, rgba(196, 196, 196, 0) 80.67%); 
+}
+.icon-bar{
+    max-width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 70px;
+}
+.top-line, .bottom-line{
+    height: 250px;
+    width: 0px;
+    border: 1px solid #1D2226;
+    background: #1D2226;
+}
+.top-line{
+    margin-bottom: 10px;
+}
+.bottom-line{
+    margin-top: 10px;
+}
+.icon{
+    padding: 10px;
+}
+.main-photo{
+    padding-left: 70px;
+    /* max-width: 30%;  */
+    padding: 0 50px;
+}
+.main-photo img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.right{
+    padding-right: 130px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    max-width: 50%;
+    align-self: stretch;
+    background: radial-gradient(at top right, #4599d4 0%, rgba(152, 183, 207, 0.792512) 0.01%, rgba(180, 192, 200, 0.276625) 23%, rgba(196, 196, 196, 0) 55%); 
+}
+.title-text{
+    white-space: pre-line;
+    font-size: 1.5em;
+    font-family: "Merriweather";
+    text-align: center;
+    padding: 0 10px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.25em;
+}
+.text{
+    font-size: 1.125em;
+    white-space: pre-line;
+    font-family: "Merriweather";
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: 400;
+    line-height: 1.25em;
+}
+.record, .record-form{
+    padding: 15px;
+    background: #8CB4D1;
+    border-radius: 10px;
+    border-width: 0;
+    margin-top: 20px;
+    width: 250px;
+    height: 65px;
+    font-size: 1.125em;
+    font-family: "Merriweather";
+}
+.record-form{
+    width: 100%;
+}
+.record:hover, .record-form:hover {
+    cursor: pointer;
+}
+.modal{  
+        display: none;
+        position: fixed; 
+        z-index: 10; 
+        padding-top: 100px; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background-color: #fff;
+    border: 2px solid #4599d4;
+    border-radius: 10px;
+    color: #4599d4;
+    padding: 15px;
+}
+  .modal-content input[type='text']{
+    
+    width: 100%;
+    border: transparent;
+    border-bottom: 2px solid #4599d4;
+    margin-bottom: 15px;
+    color: #4599d4;
+  }
+
+  .close {
+    color: #4599d4;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #4599d4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color:#4599d4;
+}
