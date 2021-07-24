@@ -1,0 +1,96 @@
+.organization, .otzyvy, .other{
+    padding-top: 110px;
+}
+.organization-wrapper, .part-organization-wrapper, .other-wrapper{
+    background:linear-gradient( 45deg , #8CB4D1 0%, rgba(152, 183, 207, 0.792512) 0.01%, rgba(180, 192, 200, 0.276625) 20%, rgba(196, 196, 196, 0) 30%);   
+}
+.organization-content, .part-organization-content, .other-content{
+    padding-left: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+
+}
+.left-photo{
+    max-width: 30%;
+}
+.left-photo img{
+    max-width: 100%;
+}
+.section-text-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 55px;
+  max-width: 40%;
+}
+.subtitle-text, .subtitle-text-prim{
+    font-family: "Merriweather";
+    font-size: 1.625em;
+    line-height: 1.26em;
+    padding-bottom: 15px;
+    white-space: pre-line;
+}
+.subtitle-text-prim{
+    font-size: 0.9em;
+    padding: 0;
+}
+.description, .description-text, .text-visible{
+    font-family: "Merriweather";
+    font-size: 1em;
+    line-height: 1.26em;
+    padding-bottom: 15px;
+    white-space: pre-line;
+}
+.description-text{
+    padding-bottom: 0;
+}
+.text-visible{
+    display: none;
+}
+.detail{
+    color: #c4c4c4;
+    text-decoration: underline;
+}
+.detail:hover, .consultation:hover{
+    cursor: pointer;
+}
+.consultation{
+    height:70px;
+    width: 80%;
+    background: transparent;
+    font-size: 1.125em;
+    font-weight:400;
+    font-family: "Merriweather";
+    color: #294A63;
+    border: 1px solid #294A63;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.coordination-wrapper, .wedding-for-two-wrapper, .business-wrapper {
+  
+    background:linear-gradient( 315deg , #8CB4D1 0%, rgba(152, 183, 207, 0.792512) 0.01%, rgba(180, 192, 200, 0.276625) 20%, rgba(196, 196, 196, 0) 30%);
+   
+}
+.coordination-content, .wedding-for-two-content, .business-content{
+    padding: 80px 0;
+    padding-right: 80px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+.section-text-right{
+    padding-right: 55px;
+    max-width: 40%;
+   text-align: right;
+
+}
+.right-photo{
+    max-width: 30%;
+}
+.right-photo img{
+    max-width: 100%;
+}
+.part-organization-content{
+    padding-top: 80px;
+}

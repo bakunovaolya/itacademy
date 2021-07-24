@@ -1,0 +1,57 @@
+.otzyvy-content{
+    display: flex;
+    justify-content:space-evenly;
+}
+.prev-button, .next-button{
+    align-self: center;
+    max-width: 10%;
+}
+.otzyv-block {
+    max-width: 80%;
+    display: flex;
+    overflow: hidden;
+}
+.otzyv-slide{
+    display: flex;
+    /* width: 70%; */
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    justify-content: center;
+    
+}
+.block-otzyv{
+    width: 80%;
+    /* flex-shrink: 0; */
+    
+    display: flex;
+    
+}
+.img-otzyv{
+    width: 40%;
+    display: flex;
+}
+.img-otzyv img{
+    max-width: 100%;
+   object-fit: contain;
+}
+.otzyvy-text{
+    width: 60%;
+    font-size: 1em;
+    font-family: "Merriweather";    
+    background:linear-gradient(to top, #8CB4D1 0%, rgba(152, 183, 207, 0.792512) 0.01%, rgba(180, 192, 200, 0.276625) 25%, rgba(196, 196, 196, 0) 85%);
+}
+.otzyv-class{
+    max-width:100%;
+    padding: 20px;
+     text-align: center;
+    font-size: 1em;
+    font-family: "Merriweather";
+    white-space: normal;
+}
+.title-otzyv{
+    padding:0 20px 20px 20px;
+    text-align: right;
+    font-family: "Good Vibes Pro";
+   font-size: 2em;
+}
