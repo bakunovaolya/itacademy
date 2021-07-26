@@ -46,7 +46,10 @@
     padding-bottom: 0;
 }
 .text-visible{
-    display: none;
+    transition: opacity 1.5s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
 }
 .detail{
     color: #c4c4c4;

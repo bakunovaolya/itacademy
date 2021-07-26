@@ -25,6 +25,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .wrapper{
     max-width: 1440px;
@@ -34,9 +35,7 @@
 .check{
     display:none;
 }
-/* @media (max-width: 320px){
-    
-} */
+
  @media (max-width: 480px){
        .top-line, .bottom-line{
         display: none;
@@ -56,12 +55,7 @@
        .left-photo, .right-photo{
         display: none;
     }
-    /*.section-text-left, .consultation, .section-text-right,
-    .right-section{
-        padding: 0;
-        max-width: 80%; 
-    }*/
-    
+   
     .consultation{
         align-self: center;
     }
@@ -70,6 +64,9 @@
     }
     .otzyvy-text{
         max-width:100%;
+    }
+    .prev-button img, .next-button img{
+        width: 80%;
     }
     .form-content{
         max-width: 80%;
@@ -157,7 +154,6 @@
         display: block;
         padding: 12px 24px;
         color: #333;
-        /* font-family: "Roboto", sans-serif; */
         font-size: 20px;
         font-weight: 600;
         text-decoration: none;
@@ -364,6 +360,9 @@
     }
     .surname{
         display: none;
+    }
+    .pair-caption{
+        padding: 10px 0;
     }
     .modal-content{
         width: 500px;

@@ -13,7 +13,6 @@
 }
 .otzyv-slide{
     display: flex;
-    /* width: 70%; */
     position: relative;
     left: 0;
     transition: all ease 1s;
@@ -22,8 +21,6 @@
 }
 .block-otzyv{
     width: 80%;
-    /* flex-shrink: 0; */
-    
     display: flex;
     
 }

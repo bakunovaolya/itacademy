@@ -1,26 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("org-detailed").onclick = function showIt() {
-    document.getElementById("text-visible-org").style.display = "block";
+    document.getElementById("text-visible-org").style.height = "auto";
+    document.getElementById("text-visible-org").style.opacity = 1;
     document.getElementById("org-detailed").style.display = "none";
   };
   document.getElementById("coord-detailed").onclick = function showIt() {
-    document.getElementById("text-visible-coord").style.display = "block";
+    document.getElementById("text-visible-coord").style.height = "auto";
+    document.getElementById("text-visible-coord").style.opacity = 1;
     document.getElementById("coord-detailed").style.display = "none";
   };
   document.getElementById("part-detailed").onclick = function showIt() {
-    document.getElementById("text-visible-part").style.display = "block";
+    document.getElementById("text-visible-part").style.height = "auto";
+    document.getElementById("text-visible-part").style.opacity = 1;
     document.getElementById("part-detailed").style.display = "none";
   };
   document.getElementById("two-detailed").onclick = function showIt() {
-    document.getElementById("text-visible-two").style.display = "block";
+    document.getElementById("text-visible-two").style.height = "auto";
+    document.getElementById("text-visible-two").style.opacity = 1;
     document.getElementById("two-detailed").style.display = "none";
   };
   document.getElementById("holiday-detailed").onclick = function showIt() {
-    document.getElementById("text-visible-holiday").style.display = "block";
+    document.getElementById("text-visible-holiday").style.height = "auto";
+    document.getElementById("text-visible-holiday").style.opacity = 1;
     document.getElementById("holiday-detailed").style.display = "none";
   };
   document.getElementById("biz-detailed").onclick = function showIt() {
-    document.getElementById("text-visible-biz").style.display = "block";
+    document.getElementById("text-visible-biz").style.height = "auto";
+    document.getElementById("text-visible-biz").style.opacity = 1;
     document.getElementById("biz-detailed").style.display = "none";
   };
 
