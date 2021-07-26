@@ -24,6 +24,9 @@
     display: flex;
     
 }
+.prev-button img:hover, .next-button img:hover{
+    cursor: pointer;
+}
 .img-otzyv{
     width: 40%;
     display: flex;
